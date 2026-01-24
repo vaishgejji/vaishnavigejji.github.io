@@ -3217,5 +3217,15 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+	}
 
+	/* Header icons: match footer icon coloring (not green), with hover change */
+	#header .icons a,
+	#header .icons a:visited {
+	color: rgba(255, 255, 255, 0.4);
+	}
+
+	#header .icons a:hover,
+	#header .icons a:focus {
+	color: rgba(255, 255, 255, 0.75);
 	}

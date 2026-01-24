@@ -273,7 +273,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1200px) {
 
 			.container {
 				width: 100% !important;
@@ -3228,4 +3228,10 @@ input, select, textarea {
 	#header .icons a:hover,
 	#header .icons a:focus {
 	color: rgba(255, 255, 255, 0.75);
+	}
+
+	@media screen and (max-width: 480px) {
+		#header h1 br {
+			display: inline;
+		}
 	}
